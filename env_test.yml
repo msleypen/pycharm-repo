@@ -1,0 +1,10 @@
+name: test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12  # Changed from 3.9 to 3.12
+  - pip
+  - pip:
+    - 102203551-square
+    - git+https://github.com/fastapi/typer.git
